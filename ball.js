@@ -10,7 +10,7 @@ class Ball{
 
 }
     this.body = Bodies.rectangle(x,y,width,height,ball_options);
-    this.image=loadImage("sprites/paper.png");  
+    this.image=loadImage("paper.png");  
     this.width=width;
     this.height=height;
     World.add(world,this.body);
